@@ -11,12 +11,35 @@ void setup() {
   size(640, 360);
   // The image file must be in the data folder of the current sketch 
   // to load successfully
-  img = loadImage("moonwalk.jpg");  // Load the image into the program  
+  img = loadImage("TestImg.bmp");  // Load the image into the program
+  final int size = 10;
+  for (int x = 0; x < img.width; x++) {
+    for (int y = 0; y < img.height; y++) {
+      color c = img.get(x, y);
+      fill(c);
+      noStroke();
+      rect(x*size+100, y*size+100, size, size);
+    }
+  }
 }
 
+// Color picker/palette
+// Display current color somewhere on screen
+// Change the color of a single pixel in the grid
+//
+// Advanced:
+//   Different size brushes
+//   Draw lines
+//   Fill tool
+//   Draw shapes
+//
+// Finally:
+//   Output image to .bmp
+//   Demonstrate the animation (time-based for now)
+//   Configure properties (separate .txt with size, animation type, etc.)
+
 void draw() {
-  // Displays the image at its actual size at point (0,0)
-  image(img, 0, 0);
-  // Displays the image at point (0, height/2) at half of its size
-  image(img, 0, height/2, img.width/2, img.height/2);
+  if (mousePressed) {
+    
+  }
 }

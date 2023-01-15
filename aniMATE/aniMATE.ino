@@ -65,10 +65,12 @@ void setup()
 
   fs_changed = true; // to print contents initially
 
+  // Start the onboard LED
   dotStrip.begin(); // Initialize pins for output
   dotStrip.setBrightness(80);
   dotStrip.show();  // Turn all LEDs off ASAP
 
+  // Start the external LED strip
   strip.begin();
   strip.clear();
   strip.show();
@@ -94,9 +96,11 @@ void loop() {
       Serial.write('x');
       Serial.println(height);
 
+      // Attempt to get stats for the bitmap
       stat = reader.loadBMP("/pix.bmp", img);
       if (stat == IMAGE_SUCCESS) {
         Serial.println("Horray!");
+        // Store the canvas in a globally accessible pointer
         canvas = (GFXcanvas16*) img.getCanvas();
       } else {
         Serial.println("Oh nose!");
@@ -134,13 +138,17 @@ void loop() {
   dotStrip.show();
 
   for (uint8_t i = 0; i < strip.numPixels(), i < canvas->width(); i++) {
+    // Get the color for each pixel
     uint16_t rgb565 = canvas->getPixel(i, frame);
     uint8_t red   = (rgb565 & 0b1111100000000000) >> 8;
     uint8_t green = (rgb565 & 0b0000011111100000) >> 3;
     uint8_t blue  = (rgb565 & 0b0000000000011111) << 3;
     uint32_t c = (red << 16) | (green << 8) | blue;
+
+    // Set the pixel color
     strip.setPixelColor(i, c);
   }
+  // Refresh the LED strip
   strip.show();
 
   //Serial.println("");

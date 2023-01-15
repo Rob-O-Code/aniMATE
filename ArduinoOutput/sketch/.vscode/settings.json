@@ -1,0 +1,6 @@
+#line 1 "/Users/rpoleynick/Documents/GitHub/aniMATE/aniMATE/.vscode/settings.json"
+{
+    "arduino.useArduinoCli": true,
+    "arduino.path": "/opt/homebrew/bin/",
+    "arduino.commandPath": "arduino-cli"
+}

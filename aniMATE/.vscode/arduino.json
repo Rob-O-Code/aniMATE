@@ -1,0 +1,7 @@
+{
+    "port": "/dev/tty.usbmodem1201",
+    "configuration": "opt=small,usbstack=tinyusb,debug=off",
+    "board": "adafruit:samd:adafruit_gemma_m0",
+    "sketch": "aniMATE.ino",
+    "output": "../ArduinoOutput"
+}

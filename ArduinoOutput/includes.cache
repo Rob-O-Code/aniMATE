@@ -1,0 +1,752 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/variants/gemma_m0"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/SPI"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_ZeroDMA.h",
+    "Includepath": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/Adafruit_ZeroDMA"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "SdFat.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_InternalFlash.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_InternalFlash/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "FlashStorage.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/FlashStorage/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_TinyUSB.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_GFX.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_GFX_Library"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_I2CDevice.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/Wire"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_ImageReader.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_ImageReader_Library"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_SPIFlash.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_DotStar.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_DotStar"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "Adafruit_NeoPixel.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_NeoPixel"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/GitHub/aniMATE/ArduinoOutput/sketch/aniMATE.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/SPI/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/Adafruit_ZeroDMA/Adafruit_ZeroDMA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FreeStack.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FsName.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/common/upcase.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_InternalFlash/src/Adafruit_InternalFlash.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/FlashStorage/src/FlashAsEEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/FlashStorage/src/FlashStorage.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/Adafruit_TinyUSB_API.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/Adafruit_USBD_CDC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/Adafruit_USBD_Device.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/Adafruit_USBH_Host.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/cdc/Adafruit_USBH_CDC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/hid/Adafruit_USBD_HID.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/midi/Adafruit_USBD_MIDI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/msc/Adafruit_USBD_MSC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/msc/Adafruit_USBH_MSC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/ports/esp32/Adafruit_TinyUSB_esp32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/ports/nrf/Adafruit_TinyUSB_nrf.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/ports/rp2040/Adafruit_TinyUSB_rp2040.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/ports/samd/Adafruit_TinyUSB_samd.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/arduino/webusb/Adafruit_USBD_WebUSB.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/audio/audio_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/bth/bth_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/cdc/cdc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/cdc/cdc_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/dfu/dfu_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/dfu/dfu_rt_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/hid/hid_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/hid/hid_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/midi/midi_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/msc/msc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/msc/msc_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/net/ecm_rndis_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/net/ncm_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/usbtmc/usbtmc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/vendor/vendor_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/class/video/video_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/common/tusb_fifo.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/device/usbd.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/device/usbd_control.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/host/hub.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/host/usbh.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/chipidea/ci_hs/dcd_ci_hs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/chipidea/ci_hs/hcd_ci_hs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/microchip/samd/dcd_samd.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/nordic/nrf5x/dcd_nrf5x.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/raspberrypi/rp2040/hcd_rp2040.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/portable/raspberrypi/rp2040/rp2040_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_TinyUSB_Library/src/tusb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_GFX.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_GrayOLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_SPITFT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_GFX_Library/glcdfont.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Library/Arduino15/packages/adafruit/hardware/samd/1.7.11/libraries/Wire/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_ImageReader_Library/Adafruit_ImageReader.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_ImageReader_Library/Adafruit_ImageReader_EPD.cpp",
+    "Include": "Adafruit_EPD.h",
+    "Includepath": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src"
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_ImageReader_Library/Adafruit_ImageReader_EPD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/Adafruit_FlashCache.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/Adafruit_SPIFlash.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/Adafruit_SPIFlashBase.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/esp32/Adafruit_FlashTransport_ESP32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/qspi/Adafruit_FlashTransport_QSPI_NRF.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/qspi/Adafruit_FlashTransport_QSPI_SAMD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/rp2040/Adafruit_FlashTransport_RP2040.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_SPIFlash/src/spi/Adafruit_FlashTransport_SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_DotStar/Adafruit_DotStar.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_NeoPixel/esp.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_NeoPixel/esp8266.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_NeoPixel/kendyte_k210.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/Adafruit_EPD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/Adafruit_MCPSRAM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_ACeP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_EK79686.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_IL0373.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_IL0398.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_IL91874.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1608.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1619.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1675.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1675B.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1680.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_SSD1681.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_UC8151D.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/rpoleynick/Documents/Arduino/libraries/Adafruit_EPD/src/drivers/Adafruit_UC8276.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

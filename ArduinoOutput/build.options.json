@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "../..,../..,../..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "adafruit:samd:adafruit_gemma_m0:opt=small,usbstack=tinyusb,debug=off",
+  "hardwareFolders": "/Users/rpoleynick/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/rpoleynick/Documents/Arduino/libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "/Users/rpoleynick/Documents/GitHub/aniMATE/aniMATE/aniMATE.ino"
+}

@@ -1,3 +1,12 @@
+/////////////////////////////////////////////////
+//          aniMATE Proof of Concept           //
+//   for the WPI GoatHacks 2023 Hack-a-Thon    //
+//                                             //
+// Robbie Oleynick, Tommy Kneeland, Ronak Wani //
+/////////////////////////////////////////////////
+
+// Runs on the Adafruit GEMMA M0, an ARM Cortex M0
+// SAMD21 development board
 
 #include "SPI.h"
 #include "SdFat.h"
@@ -15,6 +24,10 @@
 #define INTERNAL_FLASH_FILESYSTEM_START_ADDR  (0x00040000 - 256 - 0 - INTERNAL_FLASH_FILESYSTEM_SIZE)
 #define INTERNAL_FLASH_FILESYSTEM_SIZE        (200*1024)
 
+// LED Strip Parameters
+#define STRIP_NUMPIX 60
+#define STRIP_PIN 1
+
 // Internal Flash object
 Adafruit_InternalFlash flash(INTERNAL_FLASH_FILESYSTEM_START_ADDR, INTERNAL_FLASH_FILESYSTEM_SIZE);
 
@@ -31,14 +44,13 @@ Adafruit_ImageReader reader(fatfs);
 
 Adafruit_DotStar dotStrip(1, PIN_DOTSTAR_DATA, PIN_DOTSTAR_CLK, DOTSTAR_BGR);
 
-Adafruit_NeoPixel strip(60, 1, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip(STRIP_NUMPIX, STRIP_PIN, NEO_GRB + NEO_KHZ800);
 
 // Set to true when PC write to flash
 bool fs_changed;
 
 // the setup function runs once when you press reset or power the board
-void setup()
-{
+void setup() {
   // Initialize internal flash
   flash.begin();
 
@@ -99,7 +111,6 @@ void loop() {
       // Attempt to get stats for the bitmap
       stat = reader.loadBMP("/pix.bmp", img);
       if (stat == IMAGE_SUCCESS) {
-        Serial.println("Horray!");
         // Store the canvas in a globally accessible pointer
         canvas = (GFXcanvas16*) img.getCanvas();
       } else {
@@ -107,7 +118,7 @@ void loop() {
       }
 
     } else {
-      Serial.println("No image :(");
+      Serial.println("Image was not found");
     }
 
     Serial.println();
@@ -151,7 +162,6 @@ void loop() {
   // Refresh the LED strip
   strip.show();
 
-  //Serial.println("");
   delay(50);
 }
 

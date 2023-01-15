@@ -19,8 +19,16 @@ void setup() {
   background(255);
 }
 
-color rectangles[][] = new color[5][5];
+final int numLEDs = 6;
+final int numFrames = 8;
+
+color rectangles[][] = new color[numFrames][numLEDs];
 void draw() {
+  int frame = millis() / 200 % numFrames;
+  for (int col = 0; col < numLEDs; col++) {
+    fill(rectangles[frame][col]);
+    circle(700, 50+60*col, 25);
+  }
   stroke(r, g, b);
   strokeWeight(penSize);
   if (mousePressed&&mouseY<height-50) {
@@ -45,8 +53,8 @@ void draw() {
   fill(0);
   text("Random", 255, height-25);
   
-  for (int row = 0; row < 5; row++) {
-    for (int col = 0; col < 5; col++) {
+  for (int row = 0; row < numFrames; row++) {
+    for (int col = 0; col < numLEDs; col++) {
       if (mousePressed && mouseX < col*100+50 && mouseX > col*100 && mouseY > row*70 && mouseY < row*70+50) {
         rectangles[row][col] = color(r,g,b);
       }
@@ -155,12 +163,12 @@ void draw() {
 }
 void mousePressed() {
   if (mouseX>500&&mouseX<550&&mouseY>height-50) {
-    PGraphics pg = createGraphics(5,5);
+    PGraphics pg = createGraphics(numLEDs, numFrames);
     pg.beginDraw();
     pg.loadPixels();
-    for (int row = 0; row < 5; row++) {
-      for (int col = 0; col < 5; col++) {
-        pg.pixels[row*5 + col] = rectangles[row][col];
+    for (int row = 0; row < numFrames; row++) {
+      for (int col = 0; col < numLEDs; col++) {
+        pg.pixels[row*numLEDs + col] = rectangles[row][col];
       }
     }
     pg.updatePixels();
